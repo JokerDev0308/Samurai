@@ -1,0 +1,19 @@
+#focus{
+    box-shadow:0 0 10px 0 #a3a3a3;
+    position:absolute;
+    z-index: 1;
+    transition:
+        width .2s ease, 
+        height .2s ease, 
+        left .2s ease, 
+        top .2s ease, 
+        border-radius .2s ease;
+    display:none;
+    box-sizing:border-box;
+}
+.form-control{
+    border: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
